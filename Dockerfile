@@ -13,4 +13,4 @@ RUN chgrp -R 0 /var/cache/nginx && \
 EXPOSE 8080
 
 CMD ["sh", "/container_entrypoint.sh"]
-USER nexus
+USER 1001
