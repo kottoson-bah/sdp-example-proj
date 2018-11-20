@@ -1,6 +1,6 @@
 FROM nginx
 
-COPY webpage.html /usr/share/nginx/html/index.html
+COPY static/webpage.html /usr/share/nginx/html/index.html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY container_entrypoint.sh /container_entrypoint.sh
 
