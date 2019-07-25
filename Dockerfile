@@ -12,5 +12,7 @@ RUN chgrp -R 0 /var/cache/nginx && \
     chmod g=u /etc/passwd
 EXPOSE 8080
 
+ENV foo bar
+
 CMD ["sh", "/container_entrypoint.sh"]
 USER 1001
