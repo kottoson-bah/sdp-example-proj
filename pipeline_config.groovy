@@ -1,5 +1,7 @@
 libraries{
+  sdp
+  github
   docker{
-    registry: "nexus.boozallencsn.com/my-project"
+    merge = true
   }
 }
